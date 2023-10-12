@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <listeners>
+    <listener class-name="com.Ninja.qa.TestPages.ItestListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="POMframework(failed)">
+    <classes>
+      <class name="com.Ninja.qa.TestPages.TestRegisterPage">
+        <methods>
+          <include name="generateReports"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="OpenApp"/>
+          <include name="getnameMethod"/>
+          <include name="generateTestStatus"/>
+          <include name="testregisterUser"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- com.Ninja.qa.TestPages.TestRegisterPage -->
+    </classes>
+  </test> <!-- POMframework(failed) -->
+</suite> <!-- Failed suite [test1] -->
